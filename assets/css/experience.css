@@ -55,6 +55,7 @@
 .experience__img-second{
 	flex-grow: 1;
 	flex-shrink: 1;
+	margin-left: 1rem;
 
 }
 
