@@ -1,0 +1,169 @@
+section.formcontato{
+	align-items: center;
+	background-color: var(--cor-azul);
+    display: flex;
+	height: 50rem;
+}
+
+.formcontato__contacto{
+	display: flex;
+	
+}
+
+.formcontato--esquerda{
+	margin-right: 1rem;
+	width: 400px;
+}
+
+.formcontato__img{
+	background-image: url(../img/contact_image.png);
+    background-position: center;
+    background-size: cover;
+    height: 615px;
+}
+
+.formcontato__title{
+	margin-bottom: 1rem;
+}
+
+.formcontato__subtext{
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 19px;
+	width: 90%;
+}
+
+.formcontato__form{
+	display: flex;
+    flex-direction: column;
+    height: 506px;
+    justify-content: space-around;
+}
+
+.formcontato__input{
+	border: none;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 1px;
+	color: var(--cor-texto);
+	height: 3.12rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 20px;
+	margin-top: 2rem;
+	padding: 0 0.5rem;
+	width: 100%;
+}
+
+::-webkit-input-placeholder{
+	font-family: 'Raleway';
+	font-size: 0.9rem;
+	font-style: normal;
+	opacity: 0.8;
+	position: absolute;
+	top: 3px;
+
+}
+
+.formcontato__textarea{
+	box-sizing: border-box;
+	box-shadow: 1px 1px 1px;
+	border: none;
+	color: var(--cor-texto);
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 20px;
+	height: 7.56rem;
+	margin-top: 2rem;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+
+.formcontato__botao{
+	background-color: var(--cor-icons);
+	border: none;
+	color: var(--cor-box);
+	height: 3.18rem;
+	margin-top: 2rem;
+	width: 10.31rem;
+}
+
+
+
+@media screen and (min-width: 0){
+	section.formcontato{
+		height:auto;
+		padding: 1rem;
+
+	}
+
+	.formcontato--esquerda{
+		display: none;
+	}
+
+	.formcontato__title{
+		font-size: 1.37rem;
+		
+	}
+
+	.formcontato__botao{
+		height: 40px;
+		font-size: 0.87rem;
+		font-weight: 600;
+		width: 151px;
+	}
+
+}
+
+
+@media screen and (min-width: 768px){
+
+	section.formcontato{
+		padding:2rem;
+	}
+
+	.formcontato__title{
+		font-size: 2rem;
+		
+	}
+
+	.formcontato__contacto, .formcontato__input, .formcontato__textarea{
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 992px){
+
+	section.formcontato{
+		padding: 2rem 8rem;
+	}
+
+	.formcontato__botao {
+		font-size: 1rem;
+		font-weight: 400;
+		height: 3.18rem;
+		width: 10.31rem;
+
+	}
+
+}
+
+
+@media screen and (min-width: 1200px){
+	
+	.formcontato--esquerda{
+		display: block;
+
+	}
+
+	.formcontato__title{
+		font-size: 2rem;
+		line-height: 37.57px;
+	}
+
+}
+
+
+

@@ -1,0 +1,209 @@
+
+.experiencie__box-first{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem 0;
+}
+
+.experience__info{
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	justify-content: center;
+}
+
+.experience__title, .experience__text, .experience__description{
+	margin: 0.5rem
+}
+
+.experience__title{
+	font-weight: 700;
+
+}
+
+.experience__text{
+	font-weight: 500;
+}
+
+.experience__description{
+	display: flex;
+	gap: 1rem;
+
+}
+
+.experiencia__botao--repo{
+	border-color: var(--cor-icons);
+	border-width: 1px;
+	border-style: solid;
+	color: var(--cor-icons);
+	
+}
+
+.experiencia__botao--demo{
+	background-color: var(--cor-icons);
+	border: none;
+	color: var(--cor-box);
+
+}
+
+.experiencie__box-second,.experiencie__box-third{
+	display: flex;
+    flex-wrap: wrap;
+	margin-top: 3rem;
+}
+
+.experience__img-second{
+	flex-grow: 1;
+	flex-shrink: 1;
+
+}
+
+.experience__img-third{
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin-right: 1rem;
+
+}
+
+.experiencie__box-fourth{
+	display: flex;
+	flex-direction: row-reverse;
+    flex-wrap: wrap;
+	margin-top: 3rem;
+
+}
+
+.experience__img-fourth{
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin-left: 1rem;
+}
+
+.experiencie__box-fifth{
+	display: flex;
+    flex-wrap: wrap;
+	margin-top: 3rem;
+}
+
+.experience__img-fifth{
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin-right: 1rem;
+}
+
+
+
+@media screen and (min-width: 0){
+
+	section.experience{
+		padding: 2rem 1rem;
+
+	}
+
+	.experiencie__box-first, .experiencie__box-second{
+		flex-direction: column;
+		align-content: flex-start;
+
+	}
+
+	.experience__img-first,.experience__img-second {
+		width: 100%;
+		margin: 0;
+		flex-grow: 1;
+	}
+
+	.experience__title{
+		font-size: 1rem;
+		line-height: 19px;
+	}
+
+	.experience__text{
+		font-size: 0.87rem;
+	}
+
+	.experiencia__botao--repo,.experiencia__botao--demo {
+		width: 94px;
+		height: 40px;
+		font-weight: 600;
+		font-size: 0.87rem;
+	}
+
+}
+
+
+@media screen and (min-width: 768px){
+
+	section.experience{
+		padding:2rem;
+
+	}
+
+	.experience__title{
+		font-size: 1.2rem;
+		line-height: 26px;
+		width: 250px;
+
+	}
+
+	.experience__text{
+		font-size: 1rem;
+		width: 250px;
+	}
+
+	
+}
+
+
+@media screen and (min-width: 992px){
+	section.experience{
+		padding: 2rem 8rem;
+
+	}
+
+	.experience__description{
+		width: 250px;
+	}
+
+	.experiencia__botao--repo, .experiencia__botao--demo{
+		width: 100px;
+		height: 45px;
+		font-weight: 400;
+		font-size: 1rem;
+	}
+
+	
+}
+
+
+@media screen and (min-width: 1200px){
+
+	.experiencia__botao--repo, .experiencia__botao--demo{
+		width: 105px;
+		height: 51px;
+	}
+
+	.experiencie__box-first{
+		flex-direction: row;
+		align-content: center;
+	}
+
+	.experience__img-first{
+		width: 0;
+		max-width: fit-content;
+		margin-right: 1rem;
+	}
+
+	.experiencie__box-second{
+		flex-direction: row-reverse;
+    	align-content: center;
+	}
+
+	.experience__img-second{
+		width: 0;
+		max-width: fit-content;
+	}
+	
+}
+
+
+

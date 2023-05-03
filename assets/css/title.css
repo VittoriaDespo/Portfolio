@@ -1,0 +1,154 @@
+.title__div{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.title__profile{
+    border-radius: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+   
+}
+
+.title__container{
+    flex-grow: 1;
+}
+
+.title__bio{
+    font-weight: 700;
+
+}
+
+.title__network{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5%;
+    justify-content: flex-start;
+    margin-top: 1rem;
+
+}
+
+.title__network__item:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 0) {
+    section.title{
+        margin: 1rem ;
+    }
+
+    .title__div{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .title__profile{
+        width: 98px;
+    }
+
+    .title__container{
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .title__bio{
+        font-size: 1.37rem;
+    }
+
+    .title__subsection{
+        font-size: 0.87rem;
+        font-weight: 400;
+        line-height: 16px;
+        margin-top: 0.5rem;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .title__network{
+        font-size: 0.87rem;
+        font-weight: 600;
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    section.title{
+        margin: 2rem;
+    }
+
+    .title__div{
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .title__profile{
+        width: 146px;
+    }
+
+    .title__subsection{
+        font-size: 1rem;
+        width: 500px;
+
+    }
+
+    .title__network{
+        font-size: 1rem;
+        font-weight: 400;
+    
+    }
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+    section.title {
+        margin: 2rem 8rem;
+    }
+
+    .title__profile{
+        width: 200px;
+    }
+
+    .title__bio{
+        font-size: 2rem;
+    }
+
+    .title__subsection{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    .title__profile{
+        width: 368px;
+    }
+
+
+    .title__bio{
+        font-size: 3rem;
+    }
+
+    .title__subsection{
+        font-size: 1.3rem;
+        width: 600px;
+ 
+    }
+
+
+}
+
+
+

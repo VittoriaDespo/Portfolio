@@ -1,0 +1,172 @@
+section.academic{
+	background-color: var(--cor-azul);
+	margin-top: 2rem;
+}
+
+.academic__courses{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.academic__courses__box{
+    height: auto;
+    margin-top: 1rem;
+	max-width: 400px;
+
+}
+
+
+.academic__courses__item__img{
+    align-items: center;
+	background-color: var(--cor-box);
+    display: flex;
+    justify-content: space-around;
+	box-shadow: 2px 2px 2px;
+}
+
+.academic__courses__item__title{
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.academic__courses__item__title h4{
+	margin: 0;
+}
+
+.academic__courses__item__subtitle p{
+	font-style: italic;
+	font-size: medium;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 0){
+	section.academic{
+		padding: 2rem 1rem;
+
+	}
+
+	.academic__courses{
+		align-content: center;
+		flex-direction: column;
+
+	}
+
+	.academic__courses__box{
+		max-width: 350px;
+		width: 70%;
+	}
+
+	.academic__courses__list{
+		margin-bottom: 1rem;
+	}
+
+	.academic__courses__item__img img{
+		width: 84px
+
+	}
+
+	.academic__courses__item__title{
+		font-size: 1rem;
+		margin: 0.5rem 0;
+	}
+
+	.academic__courses__item__subtitle {
+	    font-size: 0.87rem;
+	    font-weight: 400;
+	    line-height: 16px;
+	}
+
+	.academic__courses__item__subtitle p{
+		margin: 0;
+	}
+
+
+}
+
+
+@media screen and (min-width: 768px){
+	section.academic{
+		padding:2rem;
+
+	}
+
+	.academic__courses{
+		flex-direction: row;
+		justify-content: space-between;
+
+	}
+
+	.academic__courses__box{
+		max-width: 400px;
+		width: 44vw;
+
+	}
+
+	.academic__courses__item__img{
+		height: 150px;
+	}
+
+	.academic__courses__item__img img{
+		width: 145px
+
+	}
+
+	.academic__courses__item__title{
+		font-size: 1.1rem;
+	}
+
+	.academic__courses__item__subtitle {
+
+		font-size: 1rem;
+	}
+	
+
+}
+
+@media screen and (min-width: 992px){
+	section.academic{
+		padding: 2rem 8rem;
+
+	}
+
+	.academic__courses__box{
+		margin-bottom: 1rem;
+		width: 33vw;
+	}
+
+	.academic__courses__list{
+		margin: 0;
+		padding: 0;
+	}
+
+	.academic__courses__item__title {
+		margin: 1rem 0;
+	}
+
+	.academic__courses__item__subtitle{
+		font-size: 1rem;
+		font-weight: 500;
+		line-height: 19px;
+	}
+	
+}
+
+@media screen and (min-width: 1200px){
+
+	.academic__courses__box{
+    	max-width: 500px;
+		width: 35vw;
+	}
+
+
+	.academic__courses__item__title{
+		font-size: 1.3rem;
+	}
+	
+}
+
