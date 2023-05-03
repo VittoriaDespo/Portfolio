@@ -101,13 +101,13 @@
 
 	}
 
-	.experiencie__box-first, .experiencie__box-second{
+	.experiencie__box-first, .experiencie__box-second, .experiencie__box-third, .experiencie__box-fourth, .experiencie__box-fifth{
 		flex-direction: column;
 		align-content: flex-start;
 
 	}
 
-	.experience__img-first,.experience__img-second {
+	.experience__img-first,.experience__img-second,.experience__img-third,.experience__img-fourth,.experience__img-fifth {
 		width: 100%;
 		margin: 0;
 		flex-grow: 1;
